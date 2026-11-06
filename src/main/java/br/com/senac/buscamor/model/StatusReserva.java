@@ -1,5 +1,8 @@
 package br.com.senac.buscamor.model;
 
-public class StatusReserva {
-    
+public enum StatusReserva {
+    PENDENTE,
+    CONFIRMADA,
+    CANCELADA,
+    CONCLUIDA
 }

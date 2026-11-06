@@ -1,7 +1,11 @@
 package br.com.senac.buscamor.repository;
 
-//COMUNICAÇÃO COM BANCO DE DADOS
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public class QuartoRepository {
-    
+import br.com.senac.buscamor.model.Quarto;
+
+public interface QuartoRepository extends JpaRepository<Quarto, Long> {
 }
+
+    
+

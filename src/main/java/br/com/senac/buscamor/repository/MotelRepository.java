@@ -1,5 +1,8 @@
 package br.com.senac.buscamor.repository;
 
-public class MotelRepository {
-    
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.com.senac.buscamor.model.Motel;
+
+public interface MotelRepository extends JpaRepository<Motel, Long> {
 }
